@@ -135,7 +135,12 @@ class AppartmentSearch:
 				temp = temp.split(',')[0]
 				Addresse = temp
 			MapsUrl = 'https://www.google.de/maps/place/' + Addresse.replace(' ', '+') + '/@48.0788321,11.5142251,11.5z'
-		# TODO: search Grundriss
+		# search Grundriss
+		if True:
+			containers = HtmlString.find_all("div", class_="is24-text is24-ex-floorplan")
+			if(len(containers)==1):
+				temp = containers[0].find_all("a")
+				Grundriss = self.get_string_attribute(temp, 'href')
 		# TODO: search Bilder
 		# TODO: search Vermieter
 		return {'ExposeId' : ExposeId,
