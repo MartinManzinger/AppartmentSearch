@@ -66,10 +66,10 @@ class AppartmentSearch:
 		if True:
 			containers = HtmlString.find_all("dd")
 			# search attributes in containers
-			temp = self.get_class_content(containers, 'addresse')
+			temp = self.get_container_content(containers, 'addresse')
 			if temp!=-1:
 				Addresse = temp
-			temp = self.get_class_content(containers, 'kaltmiete')
+			temp = self.get_container_content(containers, 'kaltmiete')
 			if temp!=-1:
 				# strip longer strings; example: 830 € (incl. Heizkosten)
 				if len(temp)>=4: temp = temp[:4]
@@ -77,7 +77,7 @@ class AppartmentSearch:
 				temp = temp.replace(' ', '')
 				temp = temp.replace('€', '')
 				Kaltmiete = temp
-			temp = self.get_class_content(containers, 'gesamtmiete')
+			temp = self.get_container_content(containers, 'gesamtmiete')
 			if temp!=-1:
 				# strip longer strings; example: 830 € (incl. Heizkosten)
 				if len(temp)>=4: temp = temp[:4]
@@ -85,24 +85,24 @@ class AppartmentSearch:
 				temp = temp.replace(' ', '')
 				temp = temp.replace('€', '')
 				Warmmiete = temp
-			temp = self.get_class_content(containers, 'zimmer')
+			temp = self.get_container_content(containers, 'zimmer')
 			if temp!=-1:
 				# get only number itself
 				temp = temp.replace(' ', '')
 				Zimmer = temp
-			temp = self.get_class_content(containers, 'wohnflaeche')
+			temp = self.get_container_content(containers, 'wohnflaeche')
 			if temp!=-1:
 				# get only number itself
 				temp = temp.replace(' ', '')
 				temp = temp.replace('m', '')
 				temp = temp.replace('²', '')
 				Fläche = temp
-			temp = self.get_class_content(containers, 'etage')
+			temp = self.get_container_content(containers, 'etage')
 			if temp!=-1:
 				temp = temp.replace(' ', '')
 				temp = temp.replace('von', '/')
 				Etage = temp
-			temp = self.get_class_content(containers, 'bezugsfrei')
+			temp = self.get_container_content(containers, 'bezugsfrei')
 			if temp!=-1:
 				BezugsFrei = temp
 				temp = temp.replace(' ', '')
@@ -112,24 +112,32 @@ class AppartmentSearch:
 			containers = HtmlString.find_all("pre")
 			# search attributes in containers
 			Beschreibung = ''
-			temp = self.get_class_content(containers, 'objektbeschreibung')
+			temp = self.get_container_content(containers, 'objektbeschreibung')
 			if temp!=-1:
 				Beschreibung += 'Objektbeschreibung\n' + temp + '\n'
-			temp = self.get_class_content(containers, 'ausstattung')
+			temp = self.get_container_content(containers, 'ausstattung')
 			if temp!=-1:
 				Beschreibung += 'Ausstattung\n' + temp + '\n'
-			temp = self.get_class_content(containers, 'lage')
+			temp = self.get_container_content(containers, 'lage')
 			if temp!=-1:
 				Beschreibung += 'Lage\n' + temp + '\n'
-			temp = self.get_class_content(containers, 'sonstiges')
+			temp = self.get_container_content(containers, 'sonstiges')
 			if temp!=-1:
 				Beschreibung += 'Sonstiges\n' + temp + '\n'
-		# search attributes in containers
-		# search Addresse and MapsUrl
-		# search Grundriss
-		# search Beschreibung
-		# search Bilder
-		# search Vermieter
+		# TODO: search Addresse and MapsUrl
+		if True:
+			container = HtmlString.find_all(class_="address-block")[0]
+			# search attributes in containers
+			temp = str(container)
+			temp = temp.split('zip-region')[1]
+			temp = self.get_container_content([temp], 'and-country')
+			if temp!=-1:
+				#temp = temp.replace(' ', '')
+				Addresse = temp
+		# TODO: search Grundriss
+		# TODO: search Beschreibung
+		# TODO: search Bilder
+		# TODO: search Vermieter
 		return {'ExposeId' : ExposeId,
 				'Url' : Url,
 				'Addresse' : Addresse,
@@ -159,7 +167,7 @@ class AppartmentSearch:
 			if InputString[CharEnd]=='"':
 				break
 		return InputString[CharStart:CharEnd]
-	def get_class_content(self, InputStrings, AttributePart):
+	def get_container_content(self, InputStrings, AttributePart):
 		FoundItem = False
 		for InputString in InputStrings:
 			InputString = str(InputString)
