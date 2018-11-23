@@ -124,7 +124,7 @@ class AppartmentSearch:
 			temp = self.get_container_content(containers, 'sonstiges')
 			if temp!=-1:
 				Beschreibung += 'Sonstiges\n' + temp + '\n'
-		# TODO: search Addresse and MapsUrl
+		# search Addresse and MapsUrl
 		if True:
 			container = HtmlString.find_all(class_="address-block")[0]
 			# search attributes in containers
@@ -136,7 +136,6 @@ class AppartmentSearch:
 				Addresse = temp
 			MapsUrl = 'https://www.google.de/maps/place/' + Addresse.replace(' ', '+') + '/@48.0788321,11.5142251,11.5z'
 		# TODO: search Grundriss
-		# TODO: search Beschreibung
 		# TODO: search Bilder
 		# TODO: search Vermieter
 		return {'ExposeId' : ExposeId,
