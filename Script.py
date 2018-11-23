@@ -71,22 +71,41 @@ class AppartmentSearch:
 				Addresse = temp
 			temp = self.get_class_content(containers, 'kaltmiete')
 			if temp!=-1:
+				# strip longer strings; example: 830 € (incl. Heizkosten)
+				if len(temp)>=4: temp = temp[:4]
+				# get only number itself
+				temp = temp.replace(' ', '')
+				temp = temp.replace('€', '')
 				Kaltmiete = temp
 			temp = self.get_class_content(containers, 'gesamtmiete')
 			if temp!=-1:
+				# strip longer strings; example: 830 € (incl. Heizkosten)
+				if len(temp)>=4: temp = temp[:4]
+				# get only number itself
+				temp = temp.replace(' ', '')
+				temp = temp.replace('€', '')
 				Warmmiete = temp
 			temp = self.get_class_content(containers, 'zimmer')
 			if temp!=-1:
+				# get only number itself
+				temp = temp.replace(' ', '')
 				Zimmer = temp
 			temp = self.get_class_content(containers, 'wohnflaeche')
 			if temp!=-1:
+				# get only number itself
+				temp = temp.replace(' ', '')
+				temp = temp.replace('m', '')
+				temp = temp.replace('²', '')
 				Fläche = temp
 			temp = self.get_class_content(containers, 'etage')
 			if temp!=-1:
+				temp = temp.replace(' ', '')
+				temp = temp.replace('von', '/')
 				Etage = temp
 			temp = self.get_class_content(containers, 'bezugsfrei')
 			if temp!=-1:
 				BezugsFrei = temp
+				temp = temp.replace(' ', '')
 				{"house" : "Haus", "cat":"Katze", "black":"schwarz"}
 		# pre container
 		if True:

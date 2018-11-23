@@ -1,14 +1,14 @@
-ExposeId;71840808;96643089;49533823;108518680;108485473;108485141;108456019;108436116;108247158;108244278;108059592;108055462;108043926;107693966;101425416;93625205;92689753;87740017;55721310;51430475
-Url;https://www.immobilienscout24.de/expose/71840808;https://www.immobilienscout24.de/expose/96643089;https://www.immobilienscout24.de/expose/49533823;https://www.immobilienscout24.de/expose/108518680;https://www.immobilienscout24.de/expose/108485473;https://www.immobilienscout24.de/expose/108485141;https://www.immobilienscout24.de/expose/108456019;https://www.immobilienscout24.de/expose/108436116;https://www.immobilienscout24.de/expose/108247158;https://www.immobilienscout24.de/expose/108244278;https://www.immobilienscout24.de/expose/108059592;https://www.immobilienscout24.de/expose/108055462;https://www.immobilienscout24.de/expose/108043926;https://www.immobilienscout24.de/expose/107693966;https://www.immobilienscout24.de/expose/101425416;https://www.immobilienscout24.de/expose/93625205;https://www.immobilienscout24.de/expose/92689753;https://www.immobilienscout24.de/expose/87740017;https://www.immobilienscout24.de/expose/55721310;https://www.immobilienscout24.de/expose/51430475
+ExposeId;71840808;96643089;49533823;108557166;108518680;108485473;108485141;108456019;108436116;108247158;108244278;108059592;108055462;108043926;107693966;101425416;93625205;92689753;87740017;55721310
+Url;https://www.immobilienscout24.de/expose/71840808;https://www.immobilienscout24.de/expose/96643089;https://www.immobilienscout24.de/expose/49533823;https://www.immobilienscout24.de/expose/108557166;https://www.immobilienscout24.de/expose/108518680;https://www.immobilienscout24.de/expose/108485473;https://www.immobilienscout24.de/expose/108485141;https://www.immobilienscout24.de/expose/108456019;https://www.immobilienscout24.de/expose/108436116;https://www.immobilienscout24.de/expose/108247158;https://www.immobilienscout24.de/expose/108244278;https://www.immobilienscout24.de/expose/108059592;https://www.immobilienscout24.de/expose/108055462;https://www.immobilienscout24.de/expose/108043926;https://www.immobilienscout24.de/expose/107693966;https://www.immobilienscout24.de/expose/101425416;https://www.immobilienscout24.de/expose/93625205;https://www.immobilienscout24.de/expose/92689753;https://www.immobilienscout24.de/expose/87740017;https://www.immobilienscout24.de/expose/55721310
 Addresse;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None
 MapsUrl;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None
-Kaltmiete; 800 € ; 800 € ; 750 € ; 700 € ; 790 € ; 690 € ; 680 € ; 680 € ; 733 € ; 695 € ; 18,50 € ; 18,50 € ; 775 € ; 765 € ; 690 € ; 795 € ; 795 € ; 529 € ; 770 € ; 670 € 
-Warmmiete; 940 € ; 950 € ; 750 € (zzgl. Nebenkosten) ; 850 € ; 920 € ; 840 € ; 710 € (zzgl. Heizkosten) ; 890 € ; 950 € ; 880 € ; 18,50 € (zzgl. Nebenkosten &amp, Heizkosten) ; 18,50 € (zzgl. Nebenkosten &amp, Heizkosten) ; 920 € ; 905 € ; 800 € ; 925 € (zzgl. Heizkosten) ; 870 € (zzgl. Heizkosten) ; 679 € ; 1.000 € ; 860 € 
-Zimmer; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 ; 2 
-Fläche; 59 m² ; 80 m² ; 42 m² ; 54 m² ; 63 m² ; 54 m² ; 52 m² ; 59,5 m² ; 48,09 m² ; 46,5 m² ; 71,85 m² ; 50 m² ; 62 m² ; 48,33 m² ; 52 m² ; 51 m² ; 58 m² ; 46 m² ; 52,07 m² ; 53,3 m² 
-Etage; 0 von 2 ; 2 von 2 ;None; 1 von 2 ; 3 von 3 ; 2 von 6 ; 0 von 2 ; 2 von 3 ; 2 ; 0 von 4 ;None;None; 0 von 2 ; 2 von 3 ; 1 von 2 ;None;None; 2 von 2 ; 4 von 4 ; 2 von 3 
+Kaltmiete;800;800;750;800;700;790;690;680;680;733;695;18,;18,;775;765;690;795;795;529;770
+Warmmiete;940;950;750;1.0;850;920;840;710;890;950;880;18,;18,;920;905;800;925;870;679;1.0
+Zimmer;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2
+Fläche;59;80;42;54;54;63;54;52;59,5;48,09;46,5;71,85;50;62;48,33;52;51;58;46;52,07
+Etage;0/2;2/2;None;1/5;1/2;3/3;2/6;0/2;2/3;2;0/4;None;None;0/2;2/3;1/2;None;None;2/2;4/4
 Grundriss;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None
-BezugsFrei; 01.01.2019 ; 01.03.2019 ; 1.11.2018 ; 01.01.2019 ; 01.01.2019 ; 01.02.2019 ; 01.01.2019 ; 01.01.2019 ; sofort ; 15.12.2018 ; Ende März 2019 ; Ende März 2019 ; 01.01.2019 ; 01.01.2019 ; 01.01.2019 ; 1.2.2019 ; nach Vereinbarung ; 01.02.2018 ; 01.01.2019 ; 01.02.2019 
+BezugsFrei; 01.01.2019 ; 01.03.2019 ; 1.11.2018 ; 15.01.2019 ; 01.01.2019 ; 01.01.2019 ; 01.02.2019 ; 01.01.2019 ; 01.01.2019 ; sofort ; 15.12.2018 ; Ende März 2019 ; Ende März 2019 ; 01.01.2019 ; 01.01.2019 ; 01.01.2019 ; 1.2.2019 ; nach Vereinbarung ; 01.02.2018 ; 01.01.2019 
 Beschreibung;"Objektbeschreibung
 Wir vermieten eine schöne 2 Zimmer Erdge-schoßwohnung in ruhiger aber zentraler Orslage von Feldkirchen.
 Die Wohnung wird bevorzugt ab dem 01.01.2019 vermietet könnte aber auch ab dem 01.02.2019 vermietet werden.
@@ -79,6 +79,14 @@ Gute und ausreichende Parkmöglichkeiten vorhanden.
 Sie haben einen eigenen Eingang mit eigener Klingel zur Wohnung. 
 Restaurants und tolles Bistro für Frühstück in Nähe vorhanden.
 ABSOLUTE Nichtraucher und keine Haustiere.
+";"Objektbeschreibung
+Suche für diese schöne 2 Zimmer Wohnung einen Nachmieter zum 15.1
+Badezimmer mit Wanne und Duschvorhang, Einbauküche mit Spül- und Waschmaschine, Backofen, 4 Induktionsplatten, Kühlschrank mit kleinem Frosterfach. 
+Wohnzimmer ist ein Durchgangszimmer, also nicht WG- geeignet aber Ideal für ein Single oder Paare. 
+Schlaf- und Wohnzimmer verfügen über Bodentiefe Fenster mit Zugang zur 36qm großen Terrasse inklusive elektrischer Sonnenmarkise.
+Die Küche wurde von mir aufwendig eingebaut und die Terrasse liebevoll eingerichtet und unter anderem mit vielen Blumentöpfen bzw Kübel begrünt. Für Küche und Terrassenausstattung möchte ich eine Ablöse.
+
+Über einen möglichen Einzugstermin lässt sich gerne unterhalten.
 ";"Objektbeschreibung
 Die Wohnung befindet sich im 1. OG eines 6-Parteien Hauses. Aktuell wird die Wohnung gerade umgebaut. Im Bad befindet sich eine Badewanne mit Duschbereich, eine Handtuchheizung sowie eine Stellmöglichkeit für eine Waschmaschine. Die Küche ist zum Wohnzimmer hin offen. Eine EBK ist nicht vorhanden.
 Ausstattung
@@ -377,14 +385,6 @@ Besichtigungsmöglichkeit nach Vereinbarung.
 
 Haftungshinweis: 
 Alle Angaben zum Objekt stammen aus der Baubeschreibung des Bauträgers. Änderungen und Irrtümer vorbehalten.
-";"Objektbeschreibung
-Die gut geschnittene 2-Zimmer Wohnung bestehend aus: Wohnzimmer, Schlafzimmer, Küche, Bad, Gang und großem Balkon befindet sich in einer sehr gut gepflegten Wohnanlage mit großer Gartenanlage. Im Keller befindet sich ein Waschmaschinenraum, Trockenräume und ein großes Kellerabteil. Die Gartenanlage steht allen Mietern zur Verfügung.
-Ausstattung
-Helles Eicheparkett in der gesamten Wohnung,   Fliesenboden in der Küche, Zentralheizung. Die Wohnung ist ausgestattet mit Holztüren und Holzfenstern. Badezimmer und Küche sind in weiß gehalten. Tiefgarage mit Waschplatz.
-Lage
-Ortsrandlage von Markt Schwaben, alle Geschäfte und Banken vor Ort, hoher Freizeitwert, S-Bahn nach München-Innenstadt ca. 30 min. (zu Fuß erreichbar), zur Autobahn A94 München-Passau 5 min., nach München-Riem ca. 10 min.
-Sonstiges
-Die Wohnanlage ist in einem sehr guten, gepflegten Zustand. Der Hausmeister ist vor Ort, übernimmt sämtliche anfallenden Arbeiten sowie die Reinigung der Keller und Treppenhäuser. Die Grünanlage und der große Kinderspielplatz werden professionell gepflegt.
 "
 Bilder;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None
 Vermieter;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None;None
