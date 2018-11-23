@@ -132,8 +132,9 @@ class AppartmentSearch:
 			temp = temp.split('zip-region')[1]
 			temp = self.get_container_content([temp], 'and-country')
 			if temp!=-1:
-				#temp = temp.replace(' ', '')
+				temp = temp.split(',')[0]
 				Addresse = temp
+			MapsUrl = 'https://www.google.de/maps/place/' + Addresse.replace(' ', '+') + '/@48.0788321,11.5142251,11.5z'
 		# TODO: search Grundriss
 		# TODO: search Beschreibung
 		# TODO: search Bilder
